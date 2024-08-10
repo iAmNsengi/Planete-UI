@@ -1,5 +1,3 @@
-import { a } from "react-router-dom";
-
 const Navbar = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -16,7 +14,7 @@ const Navbar = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" to="#page-top">
+          <a className="navbar-brand page-scroll" href="#page-top">
             Planete Hotel
           </a>
         </div>
@@ -32,17 +30,17 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a to="#restaurant-menu" className="page-scroll">
+              <a href="#restaurant-menu" className="page-scroll">
                 Menu
               </a>
             </li>
             <li>
-              <a to="#portfolio" className="page-scroll">
+              <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
             </li>
             <li>
-              <a to="#call-reservation" className="page-scroll">
+              <a href="#call-reservation" className="page-scroll">
                 Contact
               </a>
             </li>

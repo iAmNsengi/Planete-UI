@@ -25,17 +25,17 @@ const Portfolio = () => {
                   </li>
                   <li>
                     <a href="#" data-filter=".breakfast">
-                      Breakfast
+                      Outside
                     </a>
                   </li>
                   <li>
                     <a href="#" data-filter=".lunch">
-                      Lunch
+                      Our Rooms
                     </a>
                   </li>
                   <li>
                     <a href="#" data-filter=".dinner">
-                      Dinner
+                      Night Club
                     </a>
                   </li>
                 </ol>
@@ -50,15 +50,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/01-large.jpg"
-                    title="Dish Name"
+                    href={"#"}
+                    title="Planete Hotel"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/01-small.jpg"
+                      src={"/img/outside (12).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -70,15 +70,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/02-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/02-small.jpg"
+                      src={"/img/club (7).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -90,15 +90,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/03-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/03-small.jpg"
+                      src={"/img/outside (4).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -110,15 +110,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/04-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/04-small.jpg"
+                      src={"/img/club (2).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -130,15 +130,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/05-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/05-small.jpg"
+                      src={"/img/club (4).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -150,15 +150,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/06-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/06-small.jpg"
+                      src={"/img/room (2).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -170,15 +170,35 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/07-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/07-small.jpg"
+                      src={"/img/room (6).JPG"}
+                      className="img-responsive"
+                      alt="Project Title"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6 col-md-4 col-lg-4 lunch">
+              <div className="portfolio-item">
+                <div className="hover-bg">
+                  <a
+                    href="#"
+                    title="Dish Name"
+                    data-lightbox-gallery="gallery1"
+                  >
+                    <div className="hover-text">
+                      <h4>Planete Hotel</h4>
+                    </div>
+                    <img
+                      src={"/img/room (8).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -190,15 +210,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/08-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/08-small.jpg"
+                      src={"/img/outside (1).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -210,15 +230,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/09-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/09-small.jpg"
+                      src={"/img/club (10).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -235,10 +255,10 @@ const Portfolio = () => {
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/10-small.jpg"
+                      src={"/img/club (1).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -250,15 +270,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/11-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/11-small.jpg"
+                      src={"/img/room (2).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />
@@ -270,15 +290,15 @@ const Portfolio = () => {
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
-                    href="img/portfolio/12-large.jpg"
+                    href="#"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
                   >
                     <div className="hover-text">
-                      <h4>Dish Name</h4>
+                      <h4>Planete Hotel</h4>
                     </div>
                     <img
-                      src="img/portfolio/12-small.jpg"
+                      src={"/img/room (1).JPG"}
                       className="img-responsive"
                       alt="Project Title"
                     />

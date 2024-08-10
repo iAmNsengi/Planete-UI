@@ -6,7 +6,7 @@ const About = () => {
           <div className="col-xs-12 col-md-6">
             <div className="about-img">
               <img
-                src={"/public/img/outside(7).JPG"}
+                src={"/img/outside(7).JPG"}
                 className="img-responsive"
                 alt=""
               />
