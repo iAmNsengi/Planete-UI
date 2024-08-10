@@ -9,7 +9,7 @@ const Header = () => {
                 <h1>Planete Hotel</h1>
                 <p>Hotel / Restaurant / Night Club</p>
                 <a href="#about" className="btn btn-custom btn-lg page-scroll">
-                  Discover Story
+                  Explore
                 </a>
               </div>
             </div>

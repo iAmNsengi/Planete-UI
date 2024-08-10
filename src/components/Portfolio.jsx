@@ -24,13 +24,19 @@ const Portfolio = () => {
                     </a>
                   </li>
                   <li>
-                    <a data-filter=".breakfast">Outside</a>
+                    <a href="/#" data-filter=".breakfast">
+                      Outside
+                    </a>
                   </li>
                   <li>
-                    <a data-filter=".lunch">Our Rooms</a>
+                    <a href="/#" data-filter=".lunch">
+                      Our Rooms
+                    </a>
                   </li>
                   <li>
-                    <a data-filter=".dinner">Night Club</a>
+                    <a href="/#" data-filter=".dinner">
+                      Night Club
+                    </a>
                   </li>
                 </ol>
               </li>
