@@ -20,7 +20,7 @@ const About = () => {
                 At Planete Hotel, we believe in creating an experience that goes
                 beyond just a place to stay. Nestled in the heart of the city,
                 our hotel offers a perfect blend of luxury, comfort, and
-                impeccable service. Whether you're visiting for business or
+                impeccable service. Whether you&apos;re visiting for business or
                 leisure, our elegant rooms, world-class amenities, and warm
                 hospitality promise to make your stay truly unforgettable.
               </p>
