@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -16,9 +16,9 @@ const Navbar = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <NavLink className="navbar-brand page-scroll" to="#page-top">
+          <Link className="navbar-brand page-scroll" to="#page-top">
             Planete Hotel
-          </NavLink>
+          </Link>
         </div>
 
         <div
@@ -27,24 +27,24 @@ const Navbar = () => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <NavLink to="#about" className="page-scroll">
+              <Link to="#about" className="page-scroll">
                 About
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="#restaurant-menu" className="page-scroll">
+              <Link to="#restaurant-menu" className="page-scroll">
                 Menu
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="#portfolio" className="page-scroll">
+              <Link to="#portfolio" className="page-scroll">
                 Gallery
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink to="#call-reservation" className="page-scroll">
+              <Link to="#call-reservation" className="page-scroll">
                 Contact
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>

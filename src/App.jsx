@@ -1,9 +1,13 @@
-import PropTypes from "prop-types";
-
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />;
+      <Header />
+    </>
+  );
 };
 
 App.propTypes = {};
