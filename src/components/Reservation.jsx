@@ -3,7 +3,7 @@ const Reservation = () => {
     <div id="call-reservation" className="text-center">
       <div className="container">
         <h2>
-          Want to make a reservation? Call <strong>1-887-654-3210</strong>
+          Feel free to contact us! Call <strong>+(250) 78-8426737</strong>
         </h2>
       </div>
     </div>
