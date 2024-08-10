@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -16,9 +16,9 @@ const Navbar = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link className="navbar-brand page-scroll" to="#page-top">
+          <a className="navbar-brand page-scroll" to="#page-top">
             Planete Hotel
-          </Link>
+          </a>
         </div>
 
         <div
@@ -27,24 +27,24 @@ const Navbar = () => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <Link to="#about" className="page-scroll">
+              <a href="#about" className="page-scroll">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#restaurant-menu" className="page-scroll">
+              <a to="#restaurant-menu" className="page-scroll">
                 Menu
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#portfolio" className="page-scroll">
+              <a to="#portfolio" className="page-scroll">
                 Gallery
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#call-reservation" className="page-scroll">
+              <a to="#call-reservation" className="page-scroll">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

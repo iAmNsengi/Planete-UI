@@ -5,24 +5,35 @@ const About = () => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <div className="about-img">
-              <img src="img/about.jpg" className="img-responsive" alt="" />
+              <img
+                src={"/public/img/outside(7).JPG"}
+                className="img-responsive"
+                alt=""
+              />
             </div>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>Our Restaurant</h2>
+              <h2>Our Hotel</h2>
               <hr />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis
-                bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
-                commodo nibh.
+                At Planete Hotel, we believe in creating an experience that goes
+                beyond just a place to stay. Nestled in the heart of the city,
+                our hotel offers a perfect blend of luxury, comfort, and
+                impeccable service. Whether you're visiting for business or
+                leisure, our elegant rooms, world-class amenities, and warm
+                hospitality promise to make your stay truly unforgettable.
               </p>
-              <h3>Awarded Chefs</h3>
+              <h3></h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis
-                bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.
+                From our exquisite dining options to our relaxing spa and
+                fitness facilities, every detail at Planete Hotel is designed
+                with your comfort in mind. Our dedicated staff is here to ensure
+                that your every need is met, making you feel at home from the
+                moment you arrive. Discover the best of the city while enjoying
+                the serene ambiance of our hotel. At Planete Hotel, your
+                satisfaction is our priority, and we look forward to welcoming
+                you to a world of sophistication and relaxation.
               </p>
             </div>
           </div>

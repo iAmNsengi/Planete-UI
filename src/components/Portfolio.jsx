@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
 const Portfolio = () => {
   return (
@@ -19,24 +19,24 @@ const Portfolio = () => {
               <li>
                 <ol className="type">
                   <li>
-                    <Link href="#" data-filter="*" className="active">
+                    <a href="#" data-filter="*" className="active">
                       All
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="#" data-filter=".breakfast">
+                    <a href="#" data-filter=".breakfast">
                       Breakfast
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="#" data-filter=".lunch">
+                    <a href="#" data-filter=".lunch">
                       Lunch
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="#" data-filter=".dinner">
+                    <a href="#" data-filter=".dinner">
                       Dinner
-                    </Link>
+                    </a>
                   </li>
                 </ol>
               </li>
@@ -49,7 +49,7 @@ const Portfolio = () => {
             <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/01-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -62,14 +62,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 dinner">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/02-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -82,14 +82,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/03-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -102,14 +102,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/04-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -122,14 +122,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 dinner">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/05-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -142,14 +142,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 lunch">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/06-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -162,14 +162,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 lunch">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/07-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -182,14 +182,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/08-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -202,14 +202,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 dinner">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/09-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -222,14 +222,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 lunch">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/10-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -242,14 +242,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 lunch">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/11-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -262,14 +262,14 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
               <div className="portfolio-item">
                 <div className="hover-bg">
-                  <Link
+                  <a
                     href="img/portfolio/12-large.jpg"
                     title="Dish Name"
                     data-lightbox-gallery="gallery1"
@@ -282,7 +282,7 @@ const Portfolio = () => {
                       className="img-responsive"
                       alt="Project Title"
                     />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
