@@ -106,26 +106,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-4 breakfast">
-              <div className="portfolio-item">
-                <div className="hover-bg">
-                  <a
-                    href="#"
-                    title="Dish Name"
-                    data-lightbox-gallery="gallery1"
-                  >
-                    <div className="hover-text">
-                      <h4>Planete Hotel</h4>
-                    </div>
-                    <img
-                      src={"/img/club (2).JPG"}
-                      className="img-responsive"
-                      alt="Project Title"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
+
             <div className="col-sm-6 col-md-4 col-lg-4 dinner">
               <div className="portfolio-item">
                 <div className="hover-bg">
