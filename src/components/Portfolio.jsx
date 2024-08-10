@@ -6,7 +6,9 @@ const Portfolio = () => {
           <h2>Gallery</h2>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.
+            Take a glimpse into the beauty and sophistication of Planete Hotel.
+            From our luxurious rooms to our stunning amenities, our gallery
+            showcases the exceptional experience that awaits you.
           </p>
         </div>
       </div>
