@@ -29,11 +29,7 @@ const Navbar = () => {
                 About
               </a>
             </li>
-            <li>
-              <a href="#restaurant-menu" className="page-scroll">
-                Menu
-              </a>
-            </li>
+
             <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
