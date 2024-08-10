@@ -45,9 +45,10 @@ const Footer = () => {
             </ul>
           </div>
           <p>
-            &copy; 2024 Planete Hotel. All rights reserved. Designed by
+            &copy; 2024 Planete Hotel. All rights reserved. Designed by&nbsp;
             <a href="#" rel="nofollow">
-              &Comma
+              {" "}
+              <strong>&Comma LLC.</strong>
             </a>
           </p>
         </div>
